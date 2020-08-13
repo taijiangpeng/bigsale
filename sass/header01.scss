@@ -44,8 +44,10 @@ li{
       position: absolute;
       width: 674px;
       height: 443px;
-      left: -150px;
-      top: 73px;
+      left: -100px;
+      top: 63px;
+      z-index: 999;
+      background-color: #fff;
       // background-color: lightblue;
       .c1{
         overflow: hidden;
@@ -132,11 +134,12 @@ li{
       height: 46px;
       float: left;
       background: url(../image/search.jpg) no-repeat 23px 14px;
+      background-size: 18px 18px;;
       color: #8a7575;
       background-color: #f8f8f8;
       padding-left: 56px;
       font-size: 16px;
-      border: 1px solid #8a7575;
+      // border: 1px solid #8a7575;
     }
     button{
       outline: none;

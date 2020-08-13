@@ -4,26 +4,410 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet href="../css/swiper-bundle.css">
+  <link rel="stylesheet" href="../css/swiper.css">
   <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <div class="index_header"></div>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
+    <div class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://img.alicdn.com/tps/i4/TB1P.SuPND1gK0jSZFsSuvldVXa.jpg">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://gw.alicdn.com/tfs/TB1KiMMq7L0gK0jSZFtXXXQCXXa-1200-320.png">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev prev">
+          <p><</p>
+        </div>
+        <div class="swiper-button-next next">
+          <p>></p>
+        </div>
       </div>
-      <!-- 如果需要分页器 -->
-      <div class="swiper-pagination"></div>
+    </div>
+    <div class="type">
+      <ul>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/opera.jpg">
+            <p>话剧歌剧</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sport.jpg">
+            <p>体育赛事</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+        <li>
+          <div class="wrap">
+            <img src="../image/sing.jpg">
+            <p>演唱会</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="concert">
+      <div class="concert_top">
+        <span class="ct_l">
+          演唱会
+        </span>
+        <span class="ct_r">
+          查看全部
+        </span>
+      </div>
+      <div class="concert_bottom">
+        <div class="big_infor">
+          <img src="https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01zJEpaN2GdSG1Xvo8y_!!2251059038.jpg">
+          <div class="big_specific">
+            <p>2020西太湖音乐节</p>
+            <p>￥199<span>起</span></p>
+          </div>
+        </div>
+        <div class="common_infor">
+            <ul>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01L70FVl2GdSG2wpwyE_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020东山东海音乐节</p>
+                  <p class="address">2020东山东海音乐节海音乐节</p>
+                  <p class="date">20200911-0922</p>
+                  <p class="price">￥199<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01L70FVl2GdSG2wpwyE_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020东山东海音乐节</p>
+                  <p class="address">2020东山东海音乐节海音乐节</p>
+                  <p class="date">20200911-0922</p>
+                  <p class="price">￥199<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr" id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01L70FVl2GdSG2wpwyE_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020东山东海音乐节</p>
+                  <p class="address">2020东山东海音乐节海音乐节</p>
+                  <p class="date">20200911-0922</p>
+                  <p class="price">￥199<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01qO95kI2GdSG3dVRdu_!!2251059038.jpg">
+                <div class="common_specific">
+                  <p class="title">2020长安马自达MDAJODS氧气</p>
+                  <p class="address">大邱66livehouse杭州</p>
+                  <p class="date">2020.08.05-08.31</p>
+                  <p class="price">￥320<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01qO95kI2GdSG3dVRdu_!!2251059038.jpg">
+                <div class="common_specific">
+                  <p class="title">2020长安马自达MDAJODS氧气</p>
+                  <p class="address">大邱66livehouse杭州</p>
+                  <p class="date">2020.08.05-08.31</p>
+                  <p class="price">￥320<span>起</span></p>
+                </div>
+              </li>
+              <li id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01qO95kI2GdSG3dVRdu_!!2251059038.jpg">
+                <div class="common_specific">
+                  <p class="title">2020长安马自达MDAJODS氧气</p>
+                  <p class="address">大邱66livehouse杭州</p>
+                  <p class="date">2020.08.05-08.31</p>
+                  <p class="price">￥320<span>起</span></p>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="concert opera">
+      <div class="concert_top">
+        <span class="ct_l">
+          话剧歌剧
+        </span>
+        <span class="ct_r">
+          查看全部
+        </span>
+      </div>
+      <div class="concert_bottom">
+        <div class="big_infor">
+          <img src="https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Vv1mQO2GdSFvnmIDs_!!2251059038.png">
+          <div class="big_specific">
+            <p>开心麻花<最后赢家></p>
+            <p>￥80<span>起</span></p>
+          </div>
+        </div>
+        <div class="common_infor">
+            <ul>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29  </p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29  </p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr" id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29</p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+              <li id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="concert sport">
+      <div class="concert_top">
+        <span class="ct_l">
+          体育比赛
+        </span>
+        <span class="ct_r">
+          查看全部
+        </span>
+      </div>
+      <div class="concert_bottom">
+        <div class="big_infor">
+          <img src="https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Vv1mQO2GdSFvnmIDs_!!2251059038.png">
+          <div class="big_specific">
+            <p>开心麻花<最后赢家></p>
+            <p>￥80<span>起</span></p>
+          </div>
+        </div>
+        <div class="common_infor">
+            <ul>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29  </p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29  </p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr" id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29</p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+              <li id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="concert family">
+      <div class="concert_top">
+        <span class="ct_l">
+          儿童亲子  
+        </span>
+        <span class="ct_r">
+          查看全部
+        </span>
+      </div>
+      <div class="concert_bottom">
+        <div class="big_infor">
+          <img src="https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01Vv1mQO2GdSFvnmIDs_!!2251059038.png">
+          <div class="big_specific">
+            <p>开心麻花<最后赢家></p>
+            <p>￥80<span>起</span></p>
+          </div>
+        </div>
+        <div class="common_infor">
+            <ul>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29  </p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29  </p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li class="first_tr" id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01Qb8wyX2GdSG30DCl4_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">开心麻花重磅信息<贼想得到你></p>
+                  <p class="address">虹桥艺术中心</p>
+                  <p class="date">2020.08.05-08.29</p>
+                  <p class="price">￥100<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+              <li>
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+              <li id="no_mr">
+                <img src = "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01iyWOwU2GdSG2iMBsM_!!0-item_pic.jpg">
+                <div class="common_specific">
+                  <p class="title">2020太阳马戏四折</p>
+                  <p class="address">杭州新天地剧场</p>
+                  <p class="date">2020.08.05-08.30</p>
+                  <p class="price">￥360<span>起</span></p>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="right_nav">
+
+    </div>
+    <div class="bottom">
       
-      <!-- 如果需要导航按钮 -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-      
-      <!-- 如果需要滚动条 -->
-      <div class="swiper-scrollbar"></div>
     </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="../script/swiper-bundle.min.js"></script>
