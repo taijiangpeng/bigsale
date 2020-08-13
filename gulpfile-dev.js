@@ -4,7 +4,7 @@ const {task,src,dest,watch,series,parallel} = require('gulp');
 const load = require('gulp-load-plugins')();
 // nodejs的del模块用于删除文件
 const del = require('del');
-
+var babel = require('gulp-babel');
 // 删除dist目录
 task('delDist',async ()=>{
   await del('./dist');
@@ -28,6 +28,7 @@ task('sass', async ()=>{
 // 处理js
 task('script', async ()=>{
   src('./script/*.js')
+  .pipe(babel({ presets: ['@babel/preset-env']}))
   .pipe(dest('./dist/script'))
   .pipe(load.connect.reload())
 })

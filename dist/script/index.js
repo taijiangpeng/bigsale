@@ -1,12 +1,21 @@
-let num = 123;
-console.log(num);
-// 判断奇数偶数
-if (num % 2 === 0) {
-  console.log('偶数');
-} else {
-  console.log('偶数');
-};
-let txt = document.querySelector('.txt');
-txt.onclick = function (){
-  alert(this.innerHTML);
-}
+$('.index_header').load('./header1.html');      
+var mySwiper = new Swiper ('.swiper-container', {
+  direction: 'horizontal', // 垂直切换选项
+  loop: true, // 循环模式选项
+  
+  // 如果需要分页器
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  
+  // 如果需要前进后退按钮
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+  // 如果需要滚动条
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})        

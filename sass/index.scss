@@ -1,0 +1,25 @@
+.swiper-container {
+    width: 1200px;
+    height: 322px;
+    margin: 0 auto;
+    background-color: lightblue;
+    // overflow: hidden;
+}  
+.swiper-container .prev{
+    width: 56px;
+    left: 0;
+    top: calc(50% - 10px);
+    color: #fff;
+    height: 64px;
+    opacity: 0.7;
+    background-color: #6b584f;
+}
+.swiper-container .next{
+    width: 56px;
+    right: 0;
+    top: calc(50% - 10px);
+    color: #fff;
+    height: 64px;
+    opacity: 0.7;
+    background-color: #6b584f;
+}

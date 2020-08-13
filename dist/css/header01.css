@@ -2,7 +2,157 @@
   margin: 0;
   padding: 0; }
 
+img {
+  display: block; }
+
+li {
+  list-style: none; }
+
 .header {
-  width: 1501px;
-  height: 90px;
-  margin: 0 auto; }
+  width: 1200px;
+  height: 73px;
+  margin: 0 auto;
+  line-height: 73px;
+  font-size: 16px;
+  color: #2d2d2d; }
+  .header .country {
+    margin-left: 57px;
+    width: 62px;
+    height: 73px;
+    position: relative;
+    float: left;
+    text-align: center; }
+    .header .country .img1 {
+      width: 12px;
+      height: 14px;
+      position: absolute;
+      left: 0;
+      top: 29px;
+      display: inline-block; }
+    .header .country .img2 {
+      width: 9px;
+      height: 6px;
+      position: absolute;
+      right: 0;
+      top: 33px;
+      display: inline-block; }
+    .header .country .country_show {
+      display: none;
+      position: absolute;
+      width: 674px;
+      height: 443px;
+      left: -150px;
+      top: 73px; }
+      .header .country .country_show .c1 {
+        overflow: hidden; }
+      .header .country .country_show .c1 p:nth-child(1) {
+        width: 70px;
+        height: 38px;
+        margin-left: 33px;
+        line-height: 38px;
+        float: left; }
+      .header .country .country_show .c1 .c1_s {
+        width: 53px;
+        height: 26px;
+        margin-left: 29px;
+        margin-top: 6px;
+        background-color: #fff4f8;
+        color: #df6f95;
+        float: left;
+        font-size: 15px;
+        line-height: 26px; }
+      .header .country .country_show .c2 p:nth-child(1) {
+        width: 70px;
+        height: 51px;
+        margin-left: 33px;
+        line-height: 51px;
+        float: left; }
+      .header .country .country_show .c2 {
+        overflow: hidden; }
+      .header .country .country_show .c2 span {
+        width: 40px;
+        height: 26px;
+        margin-left: 29px;
+        margin-top: 6px;
+        background-color: #fcffff;
+        float: left;
+        font-size: 15px;
+        line-height: 40px; }
+      .header .country .country_show span:hover {
+        color: #df6f95; }
+  .header .logo {
+    float: left;
+    width: 92px;
+    height: 73px; }
+  .header ul {
+    float: left; }
+    .header ul .toindex {
+      margin-left: 40px; }
+    .header ul .fenlei {
+      margin-left: 18px; }
+  .header li {
+    float: left; }
+    .header li:hover {
+      color: #ff1268; }
+    .header li:nth-child(1) {
+      color: #ff1268; }
+  .header .search {
+    float: left;
+    margin-left: 178px;
+    width: 402px;
+    height: 48px;
+    margin-top: 15px; }
+    .header .search input {
+      width: 262px;
+      outline: none;
+      border: none;
+      border-radius: 25px 0 0 25px;
+      height: 46px;
+      float: left;
+      background: url(../image/search.jpg) no-repeat 23px 14px;
+      color: #8a7575;
+      background-color: #f8f8f8;
+      padding-left: 56px;
+      font-size: 16px;
+      border: 1px solid #8a7575; }
+    .header .search button {
+      outline: none;
+      border: none;
+      border-radius: 0 25px 25px 0;
+      margin-left: -2px;
+      float: left;
+      width: 83px;
+      height: 48px;
+      background-color: #ff1268;
+      color: #fff;
+      font-size: 20px; }
+  .header .topr {
+    float: left;
+    font-size: 16px;
+    cursor: pointer; }
+    .header .topr:hover {
+      color: #ff1268; }
+  .header .r1 {
+    width: 63px;
+    height: 73px;
+    margin-left: 40px;
+    text-align: right;
+    font-size: 16px;
+    background: url("../image/yonghu.jpg") no-repeat 0px 23px;
+    background-size: 26px 26px; }
+  .header .r2 {
+    width: 63px;
+    height: 73px;
+    margin-left: 19px;
+    text-align: right;
+    font-size: 16px;
+    background: url("../image/phone.jpg") no-repeat 0px 23px;
+    background-size: 26px 26px; }
+  .header .r3 {
+    width: 86px;
+    height: 73px;
+    margin-left: 16px;
+    text-align: right;
+    font-size: 16px;
+    background: url("../image/English.jpg") no-repeat 0px 23px;
+    background-size: 26px 26px; }
