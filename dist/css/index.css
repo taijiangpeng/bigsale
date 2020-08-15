@@ -71,6 +71,7 @@ img {
     width: 120px;
     height: 95px;
     float: left;
+    cursor: pointer;
     padding-top: 25px; }
     .type li img {
       width: 120px;
@@ -98,8 +99,10 @@ img {
       line-height: 72px;
       font-size: 24px;
       color: #111111;
-      text-indent: 5px; }
+      text-indent: 5px;
+      cursor: pointer; }
     .concert .concert_top .ct_r {
+      cursor: pointer;
       float: right;
       line-height: 72px;
       font-size: 12px;
@@ -110,6 +113,7 @@ img {
     width: 100%;
     height: 360px; }
     .concert .concert_bottom .big_infor {
+      cursor: pointer;
       width: 270px;
       height: 360px;
       float: left;
@@ -139,6 +143,7 @@ img {
       float: left;
       margin-left: 17px; }
       .concert .concert_bottom .common_infor li {
+        cursor: pointer;
         float: left;
         width: 268px;
         height: 160px;

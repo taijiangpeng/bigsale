@@ -1,4 +1,6 @@
-$('.index_header').load('./header1.html');      
+$('.index_header').load('./header1.html');  
+$('.bottom').load('./footer.html');
+$('.right_nav').load('./rightnav.html')    
 $(function($) {
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal',
@@ -30,5 +32,5 @@ $(function($) {
   }).mouseleave(function(){
     $(this).children().eq(1).css('color','#111'); 
   })
-  //商品详情文字变红
+  
 });        

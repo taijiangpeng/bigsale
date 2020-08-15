@@ -3,6 +3,8 @@
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 $('.index_header').load('./header1.html');
+$('.bottom').load('./footer.html');
+$('.right_nav').load('./rightnav.html');
 $(function ($) {
   var _Swiper;
 
@@ -28,5 +30,5 @@ $(function ($) {
     $(this).children().eq(1).css('color', '#df6f95');
   }).mouseleave(function () {
     $(this).children().eq(1).css('color', '#111');
-  }); //商品详情文字变红
+  });
 });

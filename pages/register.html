@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
-    
+    <div class="header_wrap">
+    </div>
+    <div class="register_wrap">
+        <div class="register">
+            <div class="register_infor">
+                <div class="phone">
+                    <span class="phone_t">
+                        <span>*</span>手机号:
+                    </span>
+                    <select>
+                        <option>
+                            中国大陆  +86
+                        </option>    
+                    </select>
+                    <input type="text">
+                    <p>格式错误</p>
+                </div>
+                <div class="password">
+                    <span class="password_t">
+                        <span>*</span>输入密码:
+                    </span>
+                    <input placeholder="输入密码" type="text">
+                    <p>密码格式错误</p>
+                    <img src="../image/password.jpg">
+                </div>
+                <div class="judgepassword">
+                    <span class="judgepassword_t">
+                        <span>*</span>确认密码:
+                    </span>
+                    <input placeholder="再次输入密码" type="text">
+                    <p>密码不一致</p>
+                </div>
+                <div class="code">
+                    <span class="code_t">
+                        <span>*</span>确认密码:
+                    </span>
+                    <div class="yanzheng">
+                        <div class="kuai">
+                          
+                        </div>
+                        <div class="green">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="receive">
+                    <input type="checkbox">
+                    <div>
+                        我已阅读接受<span>《大麦网会员服务协议》《隐私权专项条款》《大麦网订票服务条款》</span>并同意自动注册成为会员
+                    </div>
+                    <p>请同意注册协议</p>
+                    <button class="submit">同意并注册</button>      
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_wrap"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="../script/utils.js"></script>
+    <script src="../script/register.js"></script>
 </body>
 </html>

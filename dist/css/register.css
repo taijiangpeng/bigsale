@@ -1,0 +1,156 @@
+.register_wrap {
+  width: 100%;
+  height: 541px;
+  background-color: #f8f8f8;
+  padding-top: 40px;
+  margin-bottom: 20px; }
+  .register_wrap .register {
+    width: 1200px;
+    height: 501px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 40px; }
+    .register_wrap .register .register_infor {
+      width: 400px;
+      height: 500px;
+      margin: 0 auto; }
+      .register_wrap .register .register_infor .phone {
+        width: 398px;
+        margin-bottom: 19px; }
+        .register_wrap .register .register_infor .phone .phone_t {
+          width: 85px;
+          line-height: 43px;
+          display: inline-block;
+          text-align: right;
+          height: 43px;
+          margin-right: 12px; }
+          .register_wrap .register .register_infor .phone .phone_t span {
+            color: #ff4029; }
+        .register_wrap .register .register_infor .phone select {
+          width: 147px;
+          height: 43px;
+          border: 1px solid #c7c9d1;
+          text-indent: 10px;
+          outline: none; }
+        .register_wrap .register .register_infor .phone input {
+          outline: none;
+          margin-left: -5px;
+          width: 133px;
+          height: 41px;
+          border: 1px solid #c7c9d1;
+          border-left: none;
+          text-indent: 10px; }
+        .register_wrap .register .register_infor .phone p {
+          margin-left: 104px;
+          color: #ff166d;
+          line-height: 20px;
+          display: none;
+          font-size: 14px; }
+      .register_wrap .register .register_infor .password, .register_wrap .register .register_infor .judgepassword {
+        margin-bottom: 19px;
+        position: relative; }
+        .register_wrap .register .register_infor .password .password_t, .register_wrap .register .register_infor .password .judgepassword_t, .register_wrap .register .register_infor .judgepassword .password_t, .register_wrap .register .register_infor .judgepassword .judgepassword_t {
+          width: 85px;
+          line-height: 43px;
+          display: inline-block;
+          text-align: right;
+          height: 43px;
+          margin-right: 17px; }
+          .register_wrap .register .register_infor .password .password_t span, .register_wrap .register .register_infor .password .judgepassword_t span, .register_wrap .register .register_infor .judgepassword .password_t span, .register_wrap .register .register_infor .judgepassword .judgepassword_t span {
+            color: #ff4029; }
+        .register_wrap .register .register_infor .password input, .register_wrap .register .register_infor .judgepassword input {
+          text-indent: 13px;
+          outline: none;
+          margin-left: -5px;
+          width: 280px;
+          height: 41px;
+          border: 1px solid #c7c9d1; }
+        .register_wrap .register .register_infor .password p, .register_wrap .register .register_infor .judgepassword p {
+          margin-left: 104px;
+          color: #ff166d;
+          line-height: 20px;
+          display: none;
+          font-size: 14px; }
+        .register_wrap .register .register_infor .password img, .register_wrap .register .register_infor .judgepassword img {
+          position: absolute;
+          left: 400px;
+          display: none;
+          top: -50px; }
+      .register_wrap .register .register_infor .code {
+        overflow: hidden; }
+        .register_wrap .register .register_infor .code .code_t {
+          float: left;
+          width: 85px;
+          line-height: 43px;
+          display: inline-block;
+          text-align: right;
+          height: 43px;
+          margin-right: 17px; }
+          .register_wrap .register .register_infor .code .code_t span {
+            color: #ff4029; }
+        .register_wrap .register .register_infor .code .yanzheng {
+          line-height: 41px;
+          display: inline-block;
+          width: 280px;
+          height: 41px;
+          background-color: #e8e8e8;
+          position: relative;
+          overflow: hidden;
+          margin-bottom: 32px; }
+          .register_wrap .register .register_infor .code .yanzheng .kuai {
+            width: 35px;
+            height: 35px;
+            background-color: #fcfcfc;
+            position: absolute;
+            left: 0;
+            top: 2px;
+            line-height: 33px;
+            text-align: center;
+            font-size: 8px;
+            cursor: move;
+            background: url("../image/greenbefore.jpg") no-repeat;
+            background-size: 35px 35px; }
+          .register_wrap .register .register_infor .code .yanzheng .green {
+            width: 245px;
+            height: 41px;
+            background-color: #7ac23c;
+            left: -245px;
+            text-align: center;
+            line-height: 41px;
+            font-size: 12px;
+            color: #fff;
+            top: 0px;
+            position: absolute; }
+      .register_wrap .register .register_infor .receive {
+        padding-left: 96px;
+        width: 330px;
+        height: 150px;
+        font-size: 12px; }
+        .register_wrap .register .register_infor .receive input {
+          margin-right: 9px;
+          width: 16px;
+          height: 16px; }
+        .register_wrap .register .register_infor .receive div {
+          float: right;
+          width: 276px;
+          margin-right: 24px; }
+        .register_wrap .register .register_infor .receive span {
+          color: #5584ff;
+          cursor: pointer;
+          font-size: 12px; }
+        .register_wrap .register .register_infor .receive .submit {
+          margin-top: 22px;
+          color: #fff;
+          background-color: #ff166d;
+          font-size: 18px;
+          width: 125px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 2px;
+          border: none; }
+        .register_wrap .register .register_infor .receive p {
+          margin-left: 28px;
+          color: #ff166d;
+          line-height: 20px;
+          display: none;
+          font-size: 14px; }
