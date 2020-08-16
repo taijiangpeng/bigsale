@@ -147,7 +147,9 @@
           height: 40px;
           line-height: 40px;
           border-radius: 2px;
-          border: none; }
+          border: none;
+          cursor: pointer;
+          outline: none; }
         .register_wrap .register .register_infor .receive p {
           margin-left: 28px;
           color: #ff166d;

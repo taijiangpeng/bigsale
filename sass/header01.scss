@@ -99,15 +99,18 @@ li{
   .logo{
     float: left;
     width: 92px;
+    cursor: pointer;
     height: 73px;
   }
   ul{
     float: left;
     .toindex{
       margin-left: 40px;
+      cursor: pointer;
     }
     .fenlei{
       margin-left: 18px;
+      cursor: pointer;
     }
   }
   li{

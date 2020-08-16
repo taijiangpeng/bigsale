@@ -6,25 +6,31 @@
         "address" : "大邱66livehouse杭州",
         "data" : "2020.08.25-08.31",
         "price" : "￥399",
-        "sprice" : "七日套票3580元"
+        "sprice" : "七日套票3580元",
+        "type" : "演唱会",
+        "city" : "杭州"
     },
     {
         "code" : 2,
         "src" : "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01qO95kI2GdSG3dVRdu_!!2251059038.jpg",
         "title" : "2020长安马自达MDAJODS氧气",
-        "address" : "大邱66livehouse杭州",
+        "address" : "大邱66livehouse深圳",
         "data" : "2020.08.25-08.31",
         "price" : "￥320",
-        "sprice" : "七日套票2580元"
+        "sprice" : "七日套票2580元",
+        "type" : "演唱会",
+        "city" : "深圳"
     },
     {
         "code" : 3,
         "src" : "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01L70FVl2GdSG2wpwyE_!!0-item_pic.jpg",
-        "title" : "舟山市东海见南沙景区沙滩",
-        "address" : "舟山市朱家尖南沙景区沙滩",
+        "title" : "北京市东海见南沙景区沙滩音乐节",
+        "address" : "北京市朱家尖南沙景区沙滩",
         "data" : "2020.08.25-08.31",
         "price" : "￥199",
-        "sprice" : "七日套票1999元"
+        "sprice" : "七日套票1999元",
+        "type" : "演唱会",
+        "city" : "北京"
     },
     {
         "code" : 4,
@@ -33,7 +39,9 @@
         "address" : "北京市 | 地质礼堂剧场 ",
         "data" : "2020.08.25-08.31",
         "price" : "￥89",
-        "sprice" : "七日套票999元"
+        "sprice" : "七日套票999元",
+        "type" : "话剧歌剧",
+        "city" : "北京"
     },
     {
         "code" : 5,
@@ -42,7 +50,9 @@
         "address" : "北京市 | 北京展览馆剧场 ",
         "data" : "2020.08.25-08.31",
         "price" : "￥180",
-        "sprice" : "七日套票589元"
+        "sprice" : "七日套票589元",
+        "type" : "影视休闲",
+        "city" : "北京"
     },
     {
         "code" : 6,
@@ -51,6 +61,85 @@
         "address" : "上海市 | 虹桥艺术中心  ",
         "data" : "2020.08.25-08.31",
         "price" : "￥180",
-        "sprice" : "七日套票689元"
+        "sprice" : "七日套票689元",
+        "type" : "影视休闲",
+        "city" : "上海"
+    },
+    {
+        "code" : 7,
+        "src" : "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01BFqqCH2GdSG8kVKg3_!!2251059038.jpg_q60.jpg_.webp",
+        "title" : "【南京】 2020南京戏剧节·音乐剧《面试》中文版",
+        "address" : "北京市 | 地质礼堂剧场 ",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥89",
+        "sprice" : "七日套票999元",
+        "type" : "话剧歌剧",
+        "city" : "北京"
+    },
+    {
+        "code" : 8,
+        "src" : "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN01MLzp7s2GdSFp8FwZf_!!0-item_pic.jpg_q60.jpg_.webp",
+        "title" : "【上海】开心麻花重磅新戏《贼想得到你》",
+        "address" : "上海市 | 虹桥艺术中心  ",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥180",
+        "sprice" : "七日套票689元",
+        "type" : "影视休闲",
+        "city" : "上海"
+    },
+    {
+        "code" : 9,
+        "src" : "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01bQn8IF2GdSFodHH1S_!!2251059038.png_q60.jpg_.webp",
+        "title" : "【上海】开心麻花重磅新戏《贼想得到你》",
+        "address" : "上海市 | 虹桥艺术中心  ",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥180",
+        "sprice" : "七日套票689元",
+        "type" : "影视休闲",
+        "city" : "上海"
+    },
+    {
+        "code" : 10,
+        "src" : "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN010mAyGl2GdSFzFZWfh_!!0-item_pic.jpg_q60.jpg_.webp",
+        "title" : "2020西太湖国际音乐节",
+        "address" : "大邱66livehouse杭州",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥399",
+        "sprice" : "七日套票3580元",
+        "type" : "演唱会",
+        "city" : "杭州"
+    },
+    {
+        "code" : 11,
+        "src" : "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN0197Daaq2GdSFwN13PO_!!2251059038.png_q60.jpg_.webp",
+        "title" : "2020西太湖国际音乐节",
+        "address" : "大邱66livehouse杭州",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥399",
+        "sprice" : "七日套票3580元",
+        "type" : "演唱会",
+        "city" : "杭州"
+    },
+    {
+        "code" : 12,
+        "src" : "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01qO95kI2GdSG3dVRdu_!!2251059038.jpg",
+        "title" : "2020长安马自达MDAJODS氧气",
+        "address" : "大邱66livehouse深圳",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥320",
+        "sprice" : "七日套票2580元",
+        "type" : "演唱会",
+        "city" : "深圳"
+    },
+    {
+        "code" : 13,
+        "src" : "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01liPm6b2GdSG45LJ3B_!!2251059038.jpg_q60.jpg_.webp",
+        "title" : "2020长安马自达MDAJODS氧气",
+        "address" : "大邱66livehouse深圳",
+        "data" : "2020.08.25-08.31",
+        "price" : "￥320",
+        "sprice" : "七日套票2580元",
+        "type" : "演唱会",
+        "city" : "深圳"
     }
 ]

@@ -32,5 +32,4 @@ $(function($) {
   }).mouseleave(function(){
     $(this).children().eq(1).css('color','#111'); 
   })
-  
 });        

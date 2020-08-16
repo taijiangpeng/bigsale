@@ -85,13 +85,16 @@ li {
   .header .logo {
     float: left;
     width: 92px;
+    cursor: pointer;
     height: 73px; }
   .header ul {
     float: left; }
     .header ul .toindex {
-      margin-left: 40px; }
+      margin-left: 40px;
+      cursor: pointer; }
     .header ul .fenlei {
-      margin-left: 18px; }
+      margin-left: 18px;
+      cursor: pointer; }
   .header li {
     float: left; }
     .header li:hover {
