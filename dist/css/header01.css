@@ -138,6 +138,7 @@ li {
     .header .topr:hover {
       color: #ff1268; }
   .header .r1 {
+    position: relative;
     width: 63px;
     height: 73px;
     margin-left: 40px;
@@ -145,6 +146,25 @@ li {
     font-size: 16px;
     background: url("../image/yonghu.jpg") no-repeat 0px 23px;
     background-size: 26px 26px; }
+    .header .r1 ul {
+      z-index: 999;
+      display: none;
+      position: absolute;
+      overflow: hidden;
+      top: 60px;
+      left: -20px;
+      background-color: #fff;
+      border: 1px solid #ccc; }
+      .header .r1 ul li {
+        border-bottom: 1px solid #ccc;
+        font-size: 12px;
+        text-align: center;
+        width: 100px;
+        color: #2d2d2d;
+        height: 40px;
+        line-height: 40px; }
+        .header .r1 ul li:hover {
+          color: #ff1268; }
   .header .r2 {
     width: 63px;
     height: 73px;
@@ -152,7 +172,14 @@ li {
     text-align: right;
     font-size: 16px;
     background: url("../image/phone.jpg") no-repeat 0px 23px;
-    background-size: 26px 26px; }
+    background-size: 26px 26px;
+    position: relative; }
+    .header .r2 img {
+      display: none;
+      position: absolute;
+      left: -10px;
+      top: 60px;
+      z-index: 999; }
   .header .r3 {
     width: 86px;
     height: 73px;

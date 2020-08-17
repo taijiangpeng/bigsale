@@ -2,6 +2,7 @@
 
 $('.index_header').load('./header1.html');
 $('.right_nav').load('./rightnav.html');
+$('.footer').load('./footer.html');
 var send_src = getCookie('good');
 var num;
 var this_index;
@@ -24,11 +25,11 @@ $('.ci_r li').click(function () {
             $('.select_pd').text(ele['sprice']); // console.log(ele['sprice'].slice(4));
 
             $('.s2').text(parseInt(ele['sprice'].slice(4)) * num + "元");
-            price_one = parseInt($('.s2').text());
+            price_one = parseInt($('.s2').text()) / num;
           } else {
             $('.select_pd').text('早鸟票' + ele['price']);
             $('.s2').text(ele['price'].slice(1) * num + '元');
-            price_one = parseInt($('.s2').text());
+            price_one = parseInt($('.s2').text()) / num;
           }
         }
       });
@@ -45,8 +46,8 @@ $.ajax({
   dataType: 'json',
   success: function success(data) {
     data.forEach(function (ele, index) {
-      console.log(send_src, ele['src']); // console.log(ele,index);
-
+      // console.log(send_src,ele['src']);
+      // console.log(ele,index);
       if (ele['src'] == send_src) {
         // console.log(ele);
         $('.bigimg').attr('src', ele['src']);
@@ -80,6 +81,7 @@ $('.reduce').click(function () {
   $('.s2').text(price_one * num + '元');
 });
 $('.add').click(function () {
+  console.log(price_one);
   num = $('.num_this input').val();
   num++;
 

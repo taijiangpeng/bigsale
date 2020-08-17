@@ -166,6 +166,7 @@ li{
     }
   }
   .r1{
+    position: relative;
     width: 63px;
     height: 73px;
     margin-left: 40px;
@@ -173,6 +174,30 @@ li{
     font-size: 16px;
     background: url('../image/yonghu.jpg') no-repeat 0px 23px;
     background-size: 26px 26px;
+    ul{
+      z-index: 999;
+      display: none;
+     position: absolute; 
+     overflow: hidden;
+    //  height: 300px;
+     top: 60px;
+     left: -20px;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     li{
+       border-bottom: 1px solid #ccc;
+      //  border-radius: 10px;
+      font-size: 12px;
+       text-align: center;
+       width: 100px;
+       color: #2d2d2d;
+       height: 40px;
+       line-height: 40px;
+       &:hover{
+         color: #ff1268;
+       }
+     }
+    }
   }
   .r2{
     width: 63px;
@@ -182,6 +207,14 @@ li{
     font-size: 16px;
     background: url('../image/phone.jpg') no-repeat 0px 23px;
     background-size: 26px 26px;
+    position: relative;
+    img{
+      display: none;
+      position: absolute;
+      left: -10px;
+      top: 60px;
+      z-index: 999;
+    }
   }
   .r3{
     width: 86px;

@@ -139,9 +139,10 @@ $('.submit').click(function () {
       alert('已经存在用户了');
     } else {
       localStorage.setItem(username, password);
+      alert('注册成功');
       location.href = "./login.html";
     }
   } else {
-    console.log('有错误');
+    alert('注册失败，请检查格式');
   }
 });

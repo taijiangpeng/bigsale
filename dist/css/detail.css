@@ -14,6 +14,7 @@ img {
     height: 790px;
     margin: 0 auto; }
     .good .infor .inforl {
+      border-left: 1px solid #e5e5e5;
       width: 804px;
       height: 750px;
       float: left;
@@ -251,6 +252,9 @@ img {
           margin-left: 50px;
           cursor: pointer; }
     .good .infor .inforr {
-      width: 320px;
+      width: 315px;
       height: 790px;
-      float: left; }
+      float: left;
+      background: url("../image/rr.jpg") no-repeat 10px;
+      border-left: 1px solid #e5e5e5;
+      border-right: 1px solid #e5e5e5; }
